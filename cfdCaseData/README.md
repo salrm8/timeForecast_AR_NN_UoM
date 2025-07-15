@@ -14,5 +14,8 @@ List of files:
 * `Mixlay_3982_snapshots.tar`: original snapshots of the mixing layer: 1 to 3982 (all snapshots are equispaced in time) - tar format <br>
    Use: visualization or analysis (needs pymech)
 * `mixlay_1to3982_velPickle`: velocity snapshots of the mixing layer 1 to 3982 (all snapshots are equispaced in time) reformatted as a database and saved in pickle. <br>
-   Use: Can directly be used to do POD, DMD, etc. 
+   Use: Can directly be used to do POD, DMD, etc. See `pod_mixlay.ipynb`
+* `pod_mixlay_1to3982_velPickle_3000.npz`: 3000 POD modes of the mixing layer (eigenvalues, spatial modes, temporal coefficients). <br>
+Use: Use `pod_postprocess.ipynb` for visualizing and post-processing these results. 
+
 
