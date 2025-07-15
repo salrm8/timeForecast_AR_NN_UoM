@@ -1,6 +1,9 @@
 # timeForecast_AR_NN_UoM
-Forecasting of flow time series using autoregressive and RNN methods
+Forecasting of flow time series using autoregressive and RNN methods <br>
+Phase 1: Laminar flows
 
-## CFD data:
-1. 2D mixing layer simulated by Nek5000
+## Folders:
+
+* `cfdCaseData`: CFD cases and data
+* `pod`: tools to do POD and post-process POD results
    
